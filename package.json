@@ -1,0 +1,22 @@
+{
+  "name": "@cdr0/ra",
+  "version": "1.0.0",
+  "description": "Follow the RunAnywhere model and run anywhere.",
+  "main": "index.js",
+  "bin": {
+    "ra": "bin/ra.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briancsparks/cdr0-ra.git"
+  },
+  "author": "Brian C Sparks <briancsparks@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briancsparks/cdr0-ra/issues"
+  },
+  "homepage": "https://github.com/briancsparks/cdr0-ra#readme"
+}
