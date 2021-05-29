@@ -1,6 +1,6 @@
 {
   "name": "@cdr0/ra",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Follow the RunAnywhere model and run anywhere.",
   "main": "index.js",
   "bin": {
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/briancsparks/cdr0-ra#readme",
   "dependencies": {
     "@cdr0/include": "^1.0.4",
-    "@cdr0/sg": "^1.0.9",
+    "@cdr0/sg": "^1.0.10",
     "dotenv": "^10.0.0",
     "exit-on-epipe": "^1.0.1",
     "loud-rejection": "^2.2.0",
