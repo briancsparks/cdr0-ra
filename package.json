@@ -1,6 +1,6 @@
 {
   "name": "@cdr0/ra",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Follow the RunAnywhere model and run anywhere.",
   "main": "index.js",
   "bin": {
