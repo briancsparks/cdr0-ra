@@ -4,8 +4,12 @@ require('dotenv').config()
 require('loud-rejection/register');
 require('exit-on-epipe');
 
-const include                 = require('../lib/include') (module);
+// Allow main RA module to load sub-mods fully. After, can require() as needed.
+require('..');
+
+const include                 = require('../lib/include')(module);
 const sg                      = include('@cdr0/sg')               || require('@cdr0/sg');
+const grumpy                  = require('../lib/grumpy');
 
 const path = require('path');
 const fs = require('fs');
