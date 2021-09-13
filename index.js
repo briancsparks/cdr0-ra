@@ -6,6 +6,9 @@ const logging                 = require('./lib/logging');
 const debug                   = require('./lib/debug');
 const grumpy                  = require('./lib/grumpy');
 const status                  = require('./lib/status');
+const http                    = require('./lib/http');
+const httpData                = require('./lib/http-data');
+const routing                 = require('./lib/routing');
 
 module.exports = Object.assign({},
     require('./lib/mod'),
@@ -15,8 +18,12 @@ module.exports = Object.assign({},
       debug,
       grumpy,
       config,
-      status
+      status,
+      http,
+      httpData,
+      routing,
     },
 
     config
 );
+
